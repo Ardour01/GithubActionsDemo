@@ -39,3 +39,11 @@ jobs:
     - name: Execute the tests
       run: |
         python -m pytest -s --alluredir=test_results/ tests/test_auth_user.py
+        
+    - name: Prepare Report
+      uses: Xotabu4/send-to-allure-server-action@1
+      id: allure-report
+      # always() needed because we want report for failed tests as well
+      if: ${{ always() }}
+      with:
+        allure-server-url: 'http://127.0.0.1:8080/'
