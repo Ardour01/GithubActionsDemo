@@ -1,0 +1,25 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Sep 23 09:14:15 GMT 2022","Fri Sep 23 09:14:15 GMT 2022","223","tests","test_auth_user","TestListUsers","","","test_register_user","
+        POST request to register user
+        :return:
+        "
+"passed","Fri Sep 23 09:14:14 GMT 2022","Fri Sep 23 09:14:14 GMT 2022","30","tests","test_auth_user","TestListUsers","","","test_list_particular_user[2]","
+        GET request with parameterization
+        :return:
+        "
+"passed","Fri Sep 23 09:14:14 GMT 2022","Fri Sep 23 09:14:15 GMT 2022","236","tests","test_auth_user","TestListUsers","","","test_create_user","
+        POST request to create user
+        :return:
+        "
+"passed","Fri Sep 23 09:14:14 GMT 2022","Fri Sep 23 09:14:14 GMT 2022","250","tests","test_auth_user","TestListUsers","","","test_list_particular_user[6]","
+        GET request with parameterization
+        :return:
+        "
+"skipped","Fri Sep 23 09:14:14 GMT 2022","Fri Sep 23 09:14:14 GMT 2022","235","tests","test_auth_user","TestListUsers","","","test_list_particular_user[42]","
+        GET request with parameterization
+        :return:
+        "
+"passed","Fri Sep 23 09:14:14 GMT 2022","Fri Sep 23 09:14:14 GMT 2022","64","tests","test_auth_user","TestListUsers","","","test_list_all_users","
+        GET request
+        :return:
+        "

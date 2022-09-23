@@ -1,0 +1,14 @@
+INFO     src.logger:logger.py:46 
+-----
+[2022-09-23 09:14:14.727686] Request method: GET
+[2022-09-23 09:14:14.727694] Request URL: https://reqres.in/api/users/42
+[2022-09-23 09:14:14.727697] Request data: None
+[2022-09-23 09:14:14.727700] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2022-09-23 09:14:14.727703] Request cookies: {}
+
+INFO     src.logger:logger.py:60 
+[2022-09-23 09:14:14.962111] Response code: 404
+[2022-09-23 09:14:14.962127] Response text: {}
+[2022-09-23 09:14:14.962135] Response headers: {'Date': 'Fri, 23 Sep 2022 09:14:14 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '2', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"', 'Via': '1.1 vegur', 'Cache-Control': 'max-age=14400', 'CF-Cache-Status': 'EXPIRED', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=f5k61VQStEOgIjJ7MPdYWxJLHOcBxFjJ2EyvQwEkP3Jm4nyDPvBnkpMdBc1MqImUDs36DF%2FChUakA2TLCLU6v1vTZJxBPuqR%2FlMPYxMCj%2Fe3qUv8TYk4eqecbg%3D%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '74f22b422a14829e-IAD'}
+[2022-09-23 09:14:14.962174] Response cookies: {}
+-----

@@ -1,0 +1,14 @@
+INFO     src.logger:logger.py:46 
+-----
+[2022-09-23 09:14:14.474092] Request method: GET
+[2022-09-23 09:14:14.474099] Request URL: https://reqres.in/api/users/6
+[2022-09-23 09:14:14.474102] Request data: None
+[2022-09-23 09:14:14.474105] Request headers: {'X-THIS_IS_TEST': 'True'}
+[2022-09-23 09:14:14.474108] Request cookies: {}
+
+INFO     src.logger:logger.py:60 
+[2022-09-23 09:14:14.723755] Response code: 200
+[2022-09-23 09:14:14.723772] Response text: {"data":{"id":6,"email":"tracey.ramos@reqres.in","first_name":"Tracey","last_name":"Ramos","avatar":"https://reqres.in/img/faces/6-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+[2022-09-23 09:14:14.723782] Response headers: {'Date': 'Fri, 23 Sep 2022 09:14:14 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'X-Powered-By': 'Express', 'Access-Control-Allow-Origin': '*', 'Etag': 'W/"118-we7xcJocGnljhK3IAnwbs1F3VcQ"', 'Via': '1.1 vegur', 'Cache-Control': 'max-age=14400', 'CF-Cache-Status': 'REVALIDATED', 'Report-To': '{"endpoints":[{"url":"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=AiKTlUq6K1NXOcVZD9Uf8skFI3tMDq0ja4qIFBni39jgmLB2eBqwFQRuSYbSj8rWifKyw2OoR54QoDdqJl%2FNfQReFF%2FVFAxJda3Ix4ldfHWo4hOWo1yMgxZg9A%3D%3D"}],"group":"cf-nel","max_age":604800}', 'NEL': '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}', 'Vary': 'Accept-Encoding', 'Server': 'cloudflare', 'CF-RAY': '74f22b408e5b8230-IAD', 'Content-Encoding': 'gzip'}
+[2022-09-23 09:14:14.724022] Response cookies: {}
+-----
